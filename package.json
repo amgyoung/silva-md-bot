@@ -99,7 +99,7 @@
     "ytdl-core": "^4.11.5"
   },
   "overrides": {
-    "@whiskeysockets/baileys": "npm:gifted-baileys@^2.5.8",
+    ⁠⁠"@whiskeysockets/baileys": "^6.7.0",⁠
     "form-data": "^4.0.0",
     "protobufjs": "^7.0.0",
     "jsonpath-plus": "^10.0.0",
