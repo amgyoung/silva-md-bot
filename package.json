@@ -1,0 +1,12 @@
+{
+  "name": "silva-md-bot",
+  "version": "12.0.0",
+  "main": "silva.js",
+  "scripts": {
+    "start": "node silva.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "6.7.9",
+    "pino": "^8.19.0"
+  }
+}
