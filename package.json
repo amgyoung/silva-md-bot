@@ -17,7 +17,7 @@
     "form-data": "^4.0.0",
     "node-fetch": "^2.7.0",
     "pino": "^8.19.0",
-    "rimraf": "^5.0.5"
+    "rimraf": "^5.0.5",
     "express": "^4.19.2"
   }
 }
