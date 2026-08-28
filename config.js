@@ -14,12 +14,12 @@ module.exports = {
     // Use "any" to accept any leading symbol, or "" / "none" for no prefix
     PREFIX:                process.env.PREFIX || ".",
     BOT_NAME:              process.env.BOT_NAME || "Silva MD",
-    OWNER_NUMBER:          process.env.OWNER_NUMBER || "233536316938",
+    OWNER_NUMBER:          233536316938,
     OWNER_NAME:            process.env.OWNER_NAME || "Silva MD",
     DESCRIPTION:           process.env.DESCRIPTION || "Silva MD Bot",
     ALIVE_IMG:             process.env.ALIVE_IMG || "https://files.catbox.moe/5uli5p.jpeg",
     LIVE_MSG:              process.env.LIVE_MSG || "Silva MD is active",
-    MODE:                  process.env.MODE || "both",
+    MODE:                  "both"
     AUTO_STATUS_SEEN:      true,
     AUTO_STATUS_REACT:     true,
     AUTO_STATUS_REPLY:     false,
