@@ -1,0 +1,16 @@
+{
+  "name": "silva-md-bot",
+  "version": "12.0.0",
+  "main": "silva.js",
+  "scripts": {
+    "start": "node silva.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "6.7.9",
+    "axios": "^1.6.8",
+    "pino": "^8.19.0",
+    "file-type": "^18.5.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "node-fetch": "^2.7.0"
+  }
+}
