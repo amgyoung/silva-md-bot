@@ -21,8 +21,8 @@ RUN apt-get update -qq && \
     apt-get install --no-install-recommends -y build-essential git node-gyp pkg-config python-is-python3
 
 # Install node modules
-COPY .npmrc package.json ./
-RUN npm install
+COPY package.json ./
+RUN npm install --legacy-peer-deps
 
 # Copy application code
 COPY . .
