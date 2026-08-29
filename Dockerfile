@@ -22,7 +22,7 @@ RUN apt-get update -qq && \
 
 # Install node modules
 COPY package.json ./
-RUN npm install --legacy-peer-deps
+RUN npm cache clean --force && npm install --legacy-peer-deps
 
 # Copy application code
 COPY . .
