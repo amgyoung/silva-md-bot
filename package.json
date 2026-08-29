@@ -18,10 +18,9 @@
     "node-fetch": "^2.7.0",
     "pino": "^8.19.0",
     "rimraf": "^5.0.5",
-    "express": "^4.19.2",
+        "express": "^4.19.2",
     "dotenv": "^16.4.5",
-    ⁠},⁠
-      "overrides": {
     "eslint-config": "8.57.0"
   }
 }
+
